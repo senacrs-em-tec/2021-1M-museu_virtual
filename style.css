@@ -1,0 +1,128 @@
+h1{
+    font-family: arial black, cursive;
+    float: left;
+    margin-left: 30px;
+    font-size: 60px;
+    margin-top: 12px;
+    color:rgb(0, 0, 0);
+}
+header{padding-left: 20px;
+   background-image: url(https://www.elasta.com.br/wp-content/uploads/2020/11/pexels-photo-3991871.jpeg);
+   height: 100px;
+   background-repeat:no-repeat;
+   background-size: cover ;
+   background-position: bottom;  
+}
+p{
+    text-align:left;
+    padding-left: 20px;
+}
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 20px;
+}
+
+.menu{
+list-style:none;
+border:3px solid #000000;
+float:left;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border-right:3px solid rgb(0, 0, 0);
+    }
+    .menu li a{color:rgb(0, 0, 0); text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:rgb(255, 0, 0);
+color:#fff;
+text-shadow:0px 0px 5px rgb(0, 0, 0);
+}
+.menu li  ul{
+    position:absolute ;
+    top:30px;
+    left:0;
+    background-color:red;
+    display:none;
+    }
+    .menu li:hover ul, .menu li.over ul{display:block;}
+    .menu li ul li{
+        border:1px solid #da1313;
+        display:block;
+        width:150px;
+        }
+        .menu{
+            margin-left: 1000px;
+            margin-top: 12px;
+            
+            
+        }
+        img{
+            height: 500;
+            width: 40%;
+           float: left;
+            
+        }
+       section{ 
+           margin-top: 10px;
+           float: left;
+           width: 60%;
+         
+         
+        
+       }
+        .outro{
+            float: left;
+            width: 30%;
+  
+        }
+      .link{
+          float: right;
+            padding: 15px;
+            background-color:#232323;
+            color: #fff;
+            text-decoration:none;
+           margin-top: 20px;
+      }
+      p{
+          color: black;
+      }
+.jogadores{
+    font-family: arial black, cursive;
+    font-size: 42px;
+}
+.paragrafo{
+    margin-top: 20px;
+    text-align: left;
+}
+.garrincha{
+    font-size: 40px;
+    margin-left: 300px;
+}
+.pgarrincha{
+    font-size: 20px;
+    padding-top: 70px;
+    margin-left: 300px;
+}
+.alfredo{
+    font-size: 35px;
+    font-family: arial black, cursive;
+    margin-left: 300px;
+}
+.foto{
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+}
+.paragrafo2{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.paragrafo3{
+    font-size: 30px;
+}
